@@ -1,0 +1,29 @@
+{
+    "name": "fahmiardi/laravel-mongodb-auth",
+    "description": "Laravel 5.3 Auth with MongoDB and able to integrate with Passport user_id foreign key",
+    "homepage": "https://github.com/fahmiardi/laravel-mongodb-auth",
+    "license": "MIT",
+    "require": {
+        "jenssegers/mongodb": "^3.1",
+        "laravel/passport": "^1.0"
+    },
+    "keywords": [
+        "laravel",
+        "auth",
+        "mongodb",
+        "passport",
+        "oauth2"
+    ],
+    "authors": [
+        {
+            "name": "Fahmi Ardi",
+            "email": "f4hem.net@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fahmiardi\\Laravel\\Mongodb\\": "src/"
+        }
+    }
+}
